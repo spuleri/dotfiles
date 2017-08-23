@@ -17,6 +17,7 @@ alias code='cd ~/Dropbox/Programming/'
 alias findtodos='grep -r "// TODO:" .'
 alias recentfiles='ls -ltrd $(find . -type f)'
 alias listdotfiles='find . -maxdepth 1 -type f -name ".*"'
+alias listsymlinks='find . -maxdepth 1 -type l -ls'
 
 # Showing and hiding files: http://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
